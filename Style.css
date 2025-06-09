@@ -104,3 +104,10 @@ body {
 .wrapper .button:nth-child(5) span {
   color: #ff0000;
 }
+
+
+.faq-item:not(.open) .faq-answer {
+      display: none;
+      color: #000;
+      background-color: red;
+    }
